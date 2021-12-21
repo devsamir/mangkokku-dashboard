@@ -21,7 +21,7 @@ const Login = () => {
           {/* <h1 className="text-4xl md:text-3xl  uppercase bg-gradient-to-r from-primary-400 to-secondary-400 font-extrabold text-transparent bg-clip-text tracking-tighter">
             Mangkokku
           </h1> */}
-          <img src={logo} className="h-20" />
+          <img src={logo} alt="Logo Mangkokku" className="h-20" />
         </div>
         <form
           className="flex flex-col mx-auto max-w-xs"

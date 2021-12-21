@@ -10,7 +10,6 @@ import LoginPage from "./pages/Login";
 import RolePage from "./pages/User/Role";
 import UserListPage from "./pages/User/List";
 import CustomerPage from "./pages/Customers";
-import OnboardingPage from "./pages/CMS/Onboarding";
 
 function App() {
   const navigate = useNavigate();
@@ -40,7 +39,6 @@ function App() {
           <Route path="user/role" element={<RolePage />} />
           <Route path="user/list" element={<UserListPage />} />
           <Route path="customers" element={<CustomerPage />} />
-          <Route path="cms/onboarding" element={<OnboardingPage />} />
         </Route>
       </Routes>
     </>

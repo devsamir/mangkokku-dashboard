@@ -12,7 +12,6 @@ import Card from "../../components/Card";
 import Table from "../../components/Table";
 import Modal from "../../components/Modal";
 import TextField from "../../components/TextField";
-import Select from "../../components/Select";
 // Config
 import { useColumns, data as dummyData, CustomerSchema } from "./config";
 const Customer = () => {

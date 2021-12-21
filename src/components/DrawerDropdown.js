@@ -73,4 +73,6 @@ const SidebarDropdown = ({ onClick, open, children }) => {
   return <div>{childrenWithProps}</div>;
 };
 
-export default { DropDown: SidebarDropdown, Button, Container, Link };
+const DrawerDropdown = { DropDown: SidebarDropdown, Button, Container, Link };
+
+export default DrawerDropdown;
